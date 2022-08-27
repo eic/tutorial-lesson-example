@@ -329,7 +329,7 @@ included in the [repository](https://github.com/carpentries-incubator/template).
     account. (Note: This is like a GitHub Fork, but not connected to the upstream changes)
 
 2.  Put the URL of **[the styles repository][styles]**, that is
-    **https://github.com/carpentries/styles** in the "Your old repository’s clone URL" box.
+    **https://github.com/eic/tutorial-styles** in the "Your old repository’s clone URL" box.
     Do not use the URL of this repository,
     as that will bring in a lot of example files you don't actually want.
 
@@ -373,7 +373,7 @@ included in the [repository](https://github.com/carpentries-incubator/template).
      styles repository as a remote called `template`:
 
     ~~~
-    $ git remote add template https://github.com/carpentries/styles.git
+    $ git remote add template https://github.com/eic/tutorial-styles.git
     ~~~
     {: .language-bash}
 
@@ -458,10 +458,10 @@ included in the [repository](https://github.com/carpentries-incubator/template).
 >     Then, click on the green "Create repository" button to create the repository.
 >
 > 6.  Clone the **[the styles repository][styles]**, that is
->     **https://github.com/carpentries/styles** to a local directory called `data-cleanup`,
+>     **https://github.com/eic/tutorial-styles** to a local directory called `data-cleanup`,
 >     using a bash shell to run the command:
 >     ~~~
->     $ git clone -b gh-pages https://github.com/carpentries/styles.git data-cleanup
+>     $ git clone -b gh-pages https://github.com/eic/tutorial-styles.git data-cleanup
 >     ~~~
 >     {: .language-bash}
 >     Do not use the URL of *this* repository (https://github.com/carpentries/lesson-example),
@@ -494,7 +494,7 @@ included in the [repository](https://github.com/carpentries-incubator/template).
 >      styles repository as a remote called `template`:
 >
 >     ~~~
->     $ git remote add template https://github.com/carpentries/styles.git
+>     $ git remote add template https://github.com/eic/tutorial-styles.git
 >     ~~~
 >     {: .language-bash}
 >
